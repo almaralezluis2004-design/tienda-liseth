@@ -1,0 +1,1087 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="./imagenes/logo.png">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+
+    <meta name="description"
+          content="Liseth Jhoana Almarales Mendoza - Consultora de belleza de Ésika, Yanbal y Natura.">
+
+    <meta name="keywords"
+          content="Ésika, Yanbal, Natura, perfumes, maquillaje, belleza, cosméticos">
+
+    <meta name="author"
+          content="Liseth Jhoana Almarales Mendoza">
+
+    <title>Liseth Jhoana | Consultora de Belleza</title>
+
+    <link rel="stylesheet"
+          href="estilos.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         BARRA SUPERIOR
+    ====================================================== -->
+
+    <div class="barra-superior">
+
+        <span>🚚 Envíos a todo el país</span>
+
+        <span>💬 Realiza tu pedido por WhatsApp</span>
+
+        <span>♡ Asesoría personalizada</span>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header>
+
+        <div class="logo">
+
+            <h1>
+                Liseth Jhoana
+            </h1>
+
+            <h2>
+                ALMARALES MENDOZA
+            </h2>
+
+            <p>
+                Consultora de Belleza
+            </p>
+
+        </div>
+
+
+        <nav>
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+            <a href="#marcas">
+                Marcas
+            </a>
+
+            <a href="#categorias">
+                Categorías
+            </a>
+
+            <a href="#productos">
+                Productos
+            </a>
+
+            <a href="#ofertas">
+                Ofertas
+            </a>
+
+            <a href="#contacto">
+                Contacto
+            </a>
+
+        </nav>
+
+
+        <div
+            class="carrito"
+            id="boton-carrito"
+            title="Abrir carrito">
+
+            🛍️
+
+            <span id="contador-carrito">
+                0
+            </span>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         PORTADA
+    ====================================================== -->
+
+    <section
+        id="inicio"
+        class="hero">
+
+
+        <div class="hero-texto">
+
+            <p class="pequeno">
+                BELLEZA QUE INSPIRA
+            </p>
+
+
+            <h2>
+
+                Descubre tu
+
+                <span>
+                    mejor versión
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                Los mejores productos de belleza y
+                cuidado personal de
+
+                <strong>
+                    Ésika, Yanbal y Natura.
+                </strong>
+
+            </p>
+
+
+            <div class="botones">
+
+                <a
+                    href="#marcas"
+                    class="btn principal">
+
+                    Ver marcas →
+
+                </a>
+
+
+                <a
+                    href="#contacto"
+                    class="btn secundario">
+
+                    💬 Hacer pedido
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="hero-imagen">
+
+            <img
+                src="imagenes/portada.png"
+                alt="Productos de belleza">
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MARCAS
+    ====================================================== -->
+
+    <section
+        class="marcas"
+        id="marcas">
+
+
+        <div class="titulo-seccion">
+
+            <span>
+                CONOCE MIS MARCAS
+            </span>
+
+            <h2>
+                Mis marcas, lo mejor para ti
+            </h2>
+
+            <p>
+                Elige una marca y descubre sus productos.
+            </p>
+
+        </div>
+
+
+
+        <div class="marcas-container">
+
+
+            <!-- ÉSIKA -->
+
+            <div class="marca-card esika">
+
+                <div class="marca-icono">
+                    💄
+                </div>
+
+                <h3>
+                    Ésika
+                </h3>
+
+                <p>
+                    Descubre productos de belleza,
+                    maquillaje y cuidado personal.
+                </p>
+
+
+                <div class="marca-opciones">
+
+                    <a
+                        href="#productos"
+                        class="opcion-marca"
+                        onclick="filtrarMarcaGenero('esika','mujer')">
+
+                        👩 Mujeres
+
+                    </a>
+
+
+                    <a
+                        href="#productos"
+                        class="opcion-marca"
+                        onclick="filtrarMarcaGenero('esika','hombre')">
+
+                        👨 Hombres
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- YANBAL -->
+
+            <div class="marca-card yanbal">
+
+                <div class="marca-icono">
+                    💎
+                </div>
+
+                <h3>
+                    Yanbal
+                </h3>
+
+                <p>
+                    Fragancias, belleza y cuidado
+                    personal para toda ocasión.
+                </p>
+
+
+                <div class="marca-opciones">
+
+                    <a
+                        href="#productos"
+                        class="opcion-marca"
+                        onclick="filtrarMarcaGenero('yanbal','mujer')">
+
+                        👩 Mujeres
+
+                    </a>
+
+
+                    <a
+                        href="#productos"
+                        class="opcion-marca"
+                        onclick="filtrarMarcaGenero('yanbal','hombre')">
+
+                        👨 Hombres
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- NATURA -->
+
+            <div class="marca-card natura">
+
+                <div class="marca-icono">
+                    🌿
+                </div>
+
+                <h3>
+                    Natura
+                </h3>
+
+                <p>
+                    Belleza y cuidado inspirados
+                    en la naturaleza.
+                </p>
+
+
+                <div class="marca-opciones">
+
+                    <a
+                        href="#productos"
+                        class="opcion-marca"
+                        onclick="filtrarMarcaGenero('natura','mujer')">
+
+                        👩 Mujeres
+
+                    </a>
+
+
+                    <a
+                        href="#productos"
+                        class="opcion-marca"
+                        onclick="filtrarMarcaGenero('natura','hombre')">
+
+                        👨 Hombres
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CATEGORÍAS
+    ====================================================== -->
+
+    <section
+        id="categorias"
+        class="categoria-marca">
+
+
+        <div class="titulo-seccion">
+
+            <span>
+                CATEGORÍAS
+            </span>
+
+            <h2>
+                Encuentra lo que buscas
+            </h2>
+
+            <p>
+                Explora nuestros productos por categoría y género.
+            </p>
+
+        </div>
+
+
+
+        <!-- =================================================
+             MUJERES
+        ================================================== -->
+
+        <h2 class="titulo-genero">
+
+            👩 Productos para Mujeres
+
+        </h2>
+
+
+        <div class="categorias-container">
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('perfumes','mujer')">
+
+                <div class="categoria-icono">
+                    🌸
+                </div>
+
+                <h3>
+                    Colonias y perfumes
+                </h3>
+
+                <p>
+                    Fragancias para cada ocasión.
+                </p>
+
+            </a>
+
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('maquillaje','mujer')">
+
+                <div class="categoria-icono">
+                    💄
+                </div>
+
+                <h3>
+                    Maquillaje
+                </h3>
+
+                <p>
+                    Labiales, bases y más.
+                </p>
+
+            </a>
+
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('cremas','mujer')">
+
+                <div class="categoria-icono">
+                    🧴
+                </div>
+
+                <h3>
+                    Cremas
+                </h3>
+
+                <p>
+                    Cuidado e hidratación para tu piel.
+                </p>
+
+            </a>
+
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('shampoo','mujer')">
+
+                <div class="categoria-icono">
+                    🫧
+                </div>
+
+                <h3>
+                    Shampoo
+                </h3>
+
+                <p>
+                    Cuida y fortalece tu cabello.
+                </p>
+
+            </a>
+
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('cuidado','mujer')">
+
+                <div class="categoria-icono">
+                    🧼
+                </div>
+
+                <h3>
+                    Cuidado personal
+                </h3>
+
+                <p>
+                    Productos para tu bienestar.
+                </p>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- =================================================
+             HOMBRES
+        ================================================== -->
+
+        <h2 class="titulo-genero">
+
+            👨 Productos para Hombres
+
+        </h2>
+
+
+        <div class="categorias-container">
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('perfumes','hombre')">
+
+                <div class="categoria-icono">
+                    🧔
+                </div>
+
+                <h3>
+                    Colonias y perfumes
+                </h3>
+
+                <p>
+                    Fragancias masculinas.
+                </p>
+
+            </a>
+
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('cremas','hombre')">
+
+                <div class="categoria-icono">
+                    🧴
+                </div>
+
+                <h3>
+                    Cremas
+                </h3>
+
+                <p>
+                    Cuidado para la piel masculina.
+                </p>
+
+            </a>
+
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('shampoo','hombre')">
+
+                <div class="categoria-icono">
+                    🫧
+                </div>
+
+                <h3>
+                    Shampoo
+                </h3>
+
+                <p>
+                    Cuidado para el cabello.
+                </p>
+
+            </a>
+
+
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('cuidado','hombre')">
+
+                <div class="categoria-icono">
+                    🧼
+                </div>
+
+                <h3>
+                    Cuidado personal
+                </h3>
+
+                <p>
+                    Productos para el cuidado diario.
+                </p>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- =================================================
+             NIÑOS Y BEBÉS
+        ================================================== -->
+
+        <h2 class="titulo-genero">
+
+            👶 Productos para Niños y Bebés
+
+        </h2>
+
+
+        <div class="categorias-container">
+
+
+            <!-- COLONIAS -->
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('perfumes','niños')">
+
+                <div class="categoria-icono">
+                    🌸
+                </div>
+
+                <h3>
+                    Colonias
+                </h3>
+
+                <p>
+                    Fragancias suaves para niños y bebés.
+                </p>
+
+            </a>
+
+
+
+            <!-- SHAMPOO -->
+
+            <a
+                href="#productos"
+                class="categoria-card"
+                onclick="filtrarCategoriaGenero('shampoo','niños')">
+
+                <div class="categoria-icono">
+                    🫧
+                </div>
+
+                <h3>
+                    Shampoo
+                </h3>
+
+                <p>
+                    Cuidado suave para el cabello.
+                </p>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PRODUCTOS
+    ====================================================== -->
+
+    <section
+        id="productos"
+        class="productos">
+
+
+        <h2>
+            Productos
+        </h2>
+
+
+        <p class="subtitulo">
+            Encuentra tus productos favoritos
+        </p>
+
+
+        <div class="filtros">
+
+
+            <button onclick="mostrarTodos()">
+                Todos
+            </button>
+
+
+            <button onclick="filtrarMarca('esika')">
+                Ésika
+            </button>
+
+
+            <button onclick="filtrarMarca('yanbal')">
+                Yanbal
+            </button>
+
+
+            <button onclick="filtrarMarca('natura')">
+                Natura
+            </button>
+
+
+            <button onclick="filtrarGenero('mujer')">
+                👩 Mujeres
+            </button>
+
+
+            <button onclick="filtrarGenero('hombre')">
+                👨 Hombres
+            </button>
+
+
+            <button onclick="filtrarGenero('niños')">
+                👶 Niños y Bebés
+            </button>
+
+
+            <button onclick="mostrarSoloOfertas()">
+                🔥 Ofertas
+            </button>
+
+        </div>
+
+
+
+        <div
+            id="lista-productos"
+            class="productos-container">
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         BENEFICIOS
+    ====================================================== -->
+
+    <section class="beneficios">
+
+
+        <div>
+
+            <span>
+                🚚
+            </span>
+
+            <h3>
+                Envíos rápidos
+            </h3>
+
+            <p>
+                A todo el país
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <span>
+                🛡️
+            </span>
+
+            <h3>
+                Productos originales
+            </h3>
+
+            <p>
+                Garantía de calidad
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <span>
+                💗
+            </span>
+
+            <h3>
+                Asesoría personalizada
+            </h3>
+
+            <p>
+                Te ayudo a elegir
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <span>
+                🎁
+            </span>
+
+            <h3>
+                Promociones exclusivas
+            </h3>
+
+            <p>
+                Para mis clientes
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CONTACTO
+    ====================================================== -->
+
+    <section
+        id="contacto"
+        class="contacto">
+
+
+        <div class="contacto-texto">
+
+            <h2>
+                Haz tu pedido fácilmente
+            </h2>
+
+            <p>
+                ¿Tienes dudas o quieres hacer tu pedido?
+            </p>
+
+            <p>
+                Escríbeme por WhatsApp y con gusto te atenderé.
+            </p>
+
+        </div>
+
+
+        <a
+            href="https://wa.me/573127691029"
+            class="whatsapp"
+            target="_blank">
+
+            💬 PEDIR POR WHATSAPP
+
+        </a>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+
+        <div class="footer-logo">
+
+            <h2>
+                Liseth Jhoana
+            </h2>
+
+            <h3>
+                ALMARALES MENDOZA
+            </h3>
+
+            <p>
+                Consultora de Belleza
+            </p>
+
+            <p>
+                Belleza que inspira,
+                confianza que transforma.
+            </p>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                NAVEGACIÓN
+            </h3>
+
+            <a href="#inicio">
+                Inicio
+            </a>
+
+            <a href="#marcas">
+                Marcas
+            </a>
+
+            <a href="#productos">
+                Productos
+            </a>
+
+            <a href="#ofertas">
+                Ofertas
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                INFORMACIÓN
+            </h3>
+
+            <a href="#">
+                Quién soy
+            </a>
+
+            <a href="#">
+                Formas de pago
+            </a>
+
+            <a href="#">
+                Envíos y entregas
+            </a>
+
+            <a href="#">
+                Preguntas frecuentes
+            </a>
+
+        </div>
+
+
+
+        <div>
+
+            <h3>
+                CONTÁCTAME
+            </h3>
+
+            <p>
+                📱 3127691029
+            </p>
+
+            <p>
+                📧 lisethconsultora@gmail.com
+            </p>
+
+            <p>
+                📍 Colombia
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         COPYRIGHT
+    ====================================================== -->
+
+    <div class="copyright">
+
+        © 2026 Liseth Jhoana Almarales Mendoza -
+        Consultora de Belleza.
+
+    </div>
+
+
+
+    <!-- =====================================================
+         FONDO CARRITO
+    ====================================================== -->
+
+    <div
+        id="fondo-carrito"
+        class="fondo-carrito">
+    </div>
+
+
+
+    <!-- =====================================================
+         PANEL CARRITO
+    ====================================================== -->
+
+    <aside
+        id="panel-carrito"
+        class="panel-carrito">
+
+
+        <div class="carrito-header">
+
+            <h2>
+                🛒 Mi carrito
+            </h2>
+
+            <button
+                id="cerrar-carrito"
+                class="cerrar-carrito">
+
+                ✕
+
+            </button>
+
+        </div>
+
+
+
+        <div
+            id="contenido-carrito"
+            class="contenido-carrito">
+        </div>
+
+
+
+        <div class="carrito-footer">
+
+
+            <div class="carrito-subtotal">
+
+                <span>
+                    Subtotal
+                </span>
+
+                <strong id="subtotal-carrito">
+                    $0
+                </strong>
+
+            </div>
+
+
+
+            <button
+                id="finalizar-pedido"
+                class="btn-finalizar">
+
+                💬 FINALIZAR PEDIDO
+
+            </button>
+
+
+
+            <button
+                id="vaciar-carrito"
+                class="btn-vaciar">
+
+                Vaciar carrito
+
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
+
+
+
